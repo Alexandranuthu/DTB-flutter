@@ -42,7 +42,7 @@ class PaybillPage extends StatelessWidget {
       ),
     ),
       Row(
-        mainAxisAlignment: MainAxisAlignment.end, // Align children to the end
+        mainAxisAlignment: MainAxisAlignment.end, 
         children: [
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 2.0, vertical: 8.0),
@@ -82,7 +82,7 @@ class PaybillPage extends StatelessWidget {
       )
        
     ),
-    const SizedBox(width: 8), // Space between logo and text
+    const SizedBox(width: 8), 
     const Expanded(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -110,7 +110,7 @@ class PaybillPage extends StatelessWidget {
       children: [
         Text(
           "KSH 2,400.00",
-          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold), // Add your desired styling here
+          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold), 
         ),
         Text(
       "Due Today",
@@ -150,7 +150,7 @@ Row(
   ),
 ),
 
-    const SizedBox(width: 8), // Space between logo and text
+    const SizedBox(width: 8), 
     const Expanded(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -178,7 +178,7 @@ Row(
       children: [
         Text(
           "KSH 1,876.90",
-          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold), // Add your desired styling here
+          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold), 
         ),
         Text(
       "Due Tomorrow",
@@ -254,7 +254,7 @@ Row(
       width: 70,
       height: 70,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50), // half of the width or height to make a circle
+        borderRadius: BorderRadius.circular(50), 
       ),
       child: ClipOval(
         child: Image.asset(
@@ -288,7 +288,7 @@ Row(
       width: 70,
       height: 70,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50), // half of the width or height to make a circle
+        borderRadius: BorderRadius.circular(50), 
       ),
       child: ClipOval(
         child: Image.asset(
@@ -322,7 +322,7 @@ Row(
       width: 70,
       height: 70,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50), // half of the width or height to make a circle
+        borderRadius: BorderRadius.circular(50), 
       ),
       child: ClipOval(
         child: Image.asset(
